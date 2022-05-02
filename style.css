@@ -32,7 +32,8 @@ header h1 {
   opacity: .8;
   background-color:#b8e1e5;
   padding-left: 10px;
-  padding-right:10px;
+  padding-right: 10px;
+  border-radius: 5px;
 }
 
 /* Nav bar */
@@ -70,13 +71,14 @@ nav ul li {
   bottom: 13px;
   right: 100px;
   font-size: 40px;
-  color:black;
-  background-color: rgba(255, 255, 255, 0.675);
+  background-color: rgba(255, 255, 255, 0.804);
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+  color: rgb(55, 56, 66);
 }
 
 /* Everything below the milky way image */
@@ -93,8 +95,7 @@ nav ul li {
   color: rgb(33, 49, 78);
   border-right: 5px solid rgb(33, 49, 78);
   padding-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 20px 20px;
   float: left;
   inline-size: 250px;
   overflow-wrap: normal;
@@ -113,27 +114,55 @@ nav ul li {
   flex-shrink: 1;
   margin-left: 30px;
   margin-right: 30px;
+  margin: 1% 1% 1% 1%;
   float: left;
 }
 
-
-/*
-
 .aboutMe p{
-  padding-top: 60px;
+  padding: 18px;
+  font-size: 20px;; 
+  border: 5px solid rgb(55, 56, 66);
+  margin: 1% 1% 1% 38%;
+  background-color: white;
+  border-radius: 8px;;
+}
+
+.myWork p {
+  padding-top: 3%;
   font-size: 20px;;
 }
 
-.myWork {
-  display: inline-flex;
+.contactMe section p { 
+  display:inline;
+  font-size: 25px;
+  margin-right: 40px;
+  text-align: center;
 }
 
-
-.contactMe {
-  display: inline-flex;
+.contactMe section {
+  padding: 18px;
+  margin: 3.5% 1% 1% 20%;
+  text-align: center;
+  border: 5px solid rgb(55, 56, 66);
+  background-color: white;
+  border-radius: 8px;;
 }
 
+.contactMe section p span {
+  font-weight: 800;
+  text-decoration: underline;
+  
+}
 
-.myResume {
-  display: inline-flex;
+.myResume p{
+  padding-top: 2.5%;
+  font-size: 25px;
+  margin-right: 40px;
+  text-align: center;
+  padding: 18px;
+  margin: 1% 1% 1% 20%;
+  text-align: center;
+  border: 5px solid rgb(55, 56, 66);
+  background-color: white;
+  border-radius: 8px;;
 }
